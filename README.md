@@ -1,4 +1,4 @@
-# GitFundamentals
+# GitFundamentals<br>
 Created for the talk on Git Fundamentals.<br>
 
 1. Setup Git and Bash Profile on your computer.<br>
