@@ -12,7 +12,7 @@ cd dotfiles
 ./install
 ```
 
-3.Configure Git:
+3. Configure Git:
 
 ```shell
 git config --global user.name "John Doe"
@@ -32,7 +32,7 @@ brew install git
 ```
 This installs git and autocompletion for git.
 
-6.Configure custom Git commands:
+6. Configure custom Git commands:
 
 ```shell
 git congif --global alisa.lga "log --graph --oneline --all --decorate"
