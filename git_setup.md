@@ -36,4 +36,5 @@ This installs git and autocompletion for git.
 
 ```shell
 git congif --global alisa.lga "log --graph --oneline --all --decorate"
+git congif --global mergetool.kdiff3.path /Applications/kdiff3.app/Contents/MacOS/kdiff3
 ```
