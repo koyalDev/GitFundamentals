@@ -6,6 +6,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 2. Custom setup the Bash profile:
 
+```shell
+git clone https://github.com/supertopher/dotfiles.git
+cd dotfiles
+./install
+```
+
 3.Configure Git:
 
 ```shell
@@ -25,3 +31,9 @@ git config --global core.editor "subl -w"
 brew install git
 ```
 This installs git and autocompletion for git.
+
+6.Configure custom Git commands:
+
+```shell
+git congif --global alisa.lga "log --graph --oneline --all --decorate"
+```
