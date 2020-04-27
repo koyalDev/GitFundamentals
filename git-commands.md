@@ -32,3 +32,30 @@ Pushing changes to origin
 ```shell
 git push origin name-of-a-branch
 ```
+
+Add a new remote, fetch, and check out a branch from it
+```shell
+$ git remote
+origin
+$ git branch -r
+  origin/HEAD -> origin/master
+  origin/master
+$ git remote add staging git://git.kernel.org/.../gregkh/staging.git
+$ git remote
+origin
+staging
+$ git fetch staging
+...
+From git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+ * [new branch]      master     -> staging/master
+ * [new branch]      staging-linus -> staging/staging-linus
+ * [new branch]      staging-next -> staging/staging-next
+$ git branch -r
+  origin/HEAD -> origin/master
+  origin/master
+  staging/master
+  staging/staging-linus
+  staging/staging-next
+$ git switch -c staging staging/master
+...
+```
