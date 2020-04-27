@@ -3,6 +3,11 @@ To Clone a repo onto your computer.
 git clone ...
 ```
 
+To check status of your git repo.
+```shell
+git status ...
+```
+
 To create new branch.
 ```shell
 git branch name-of-a-branch
