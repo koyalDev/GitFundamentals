@@ -7,7 +7,6 @@ Created for the talk on Git Fundamentals.<br>
 2. Link to all the Git commands (and their definitions) that we will use in this talk.<br>
   [Git Commands](git-commands.md)
 
-3. Typical Workflow<br>
-  a. Index.md is the main file everyone will be contributing to.<br>
-  b.
+3. Good YouTube Reference vVideo.<br>
+  a. https://www.youtube.com/watch?v=HVsySz-h9r4
 
