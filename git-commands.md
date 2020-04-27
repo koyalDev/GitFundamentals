@@ -23,9 +23,9 @@ To create a new branch, and switch to it.
 git checkout -b name-of-a-branch
 ```
 
-add changes to push
+add changes to push. -A to add all files regardless of directory, -a to add files in current directory.
 ```shell
-git add -A -a
+git add -A/-a
 ```
 
 committing changes to push
