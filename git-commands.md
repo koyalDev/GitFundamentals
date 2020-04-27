@@ -5,7 +5,7 @@ git clone ...
 
 To check status of your git repo.
 ```shell
-git status ...
+git status
 ```
 
 To create new branch.
