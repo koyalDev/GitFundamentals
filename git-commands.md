@@ -33,6 +33,11 @@ Pushing changes to origin
 git push origin name-of-a-branch
 ```
 
+Check Remote 
+```shell
+git remote -v
+```
+
 Add a new remote, fetch, and check out a branch from it
 ```shell
 $ git remote
